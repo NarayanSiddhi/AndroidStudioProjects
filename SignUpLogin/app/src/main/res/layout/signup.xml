@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bb">
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign"
+        android:textSize="45dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-black"/>
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signup"
+        android:textSize="25dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:hint="@string/User"/>
+
+    <EditText
+        android:id="@+id/pname"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/uname"
+        android:textSize="25dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/Pass"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/signbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pname"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/SButton" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signbtn">
+
+        <TextView
+            android:id="@+id/rules"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Val"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            android:layout_marginTop="30dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

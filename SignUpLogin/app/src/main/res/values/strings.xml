@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name" translatable="false">SignUp</string>
+    <string name="sign">SIGN UP</string>
+    <string name="SButton">Sign-Up</string>
+    <string name="User">Username</string>
+    <string name="Pass">Password</string>
+    <string name="log">LOG IN</string>
+    <string name="LButton">Log-In</string>
+    <string name="Val">Validation Rules of Password\n
+        - Password should contain uppercase and lowercase letters.\n
+        - Password should contain letters and numbers.\n
+        - Password should contain special characters.\n
+        - Minimum length of the password (the default value is 8)\n.</string>
+</resources>

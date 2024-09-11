@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/parser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textSize="23sp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="70sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/xmldata"
+        android:layout_width="160sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginStart="20sp"
+        android:layout_below="@+id/parser"
+        android:text="@string/xml"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/jsondata"
+        android:layout_width="160sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_below="@+id/parser"
+        android:layout_alignParentRight="true"
+        android:text="@string/json"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="20sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/xmlparsed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/xmlparsed"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/parseddataxml"
+            android:layout_width="match_parent"
+            android:layout_height="230sp"
+            android:layout_below="@+id/xmlparsed"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="430sp"
+            android:layout_marginStart="20sp"
+            android:layout_marginEnd="20sp"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/jsonparsed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/jsonparsed"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/parseddatajson"
+            android:layout_width="match_parent"
+            android:layout_height="230sp"
+            android:layout_marginTop="10sp"
+            android:layout_below="@+id/xmlparsed"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

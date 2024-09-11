@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CallSave</string>
+    <string name="ButtonZero">0</string>
+    <string name="ButtonSeven">7</string>
+    <string name="ButtonEight">8</string>
+    <string name="ButtonNine">9</string>
+    <string name="ButtonFour">4</string>
+    <string name="ButtonFive">5</string>
+    <string name="ButtonSix">6</string>
+    <string name="ButtonOne">1</string>
+    <string name="ButtonTwo">2</string>
+    <string name="ButtonThree">3</string>
+    <string name="ButtonStar">*</string>
+    <string name="ButtonHash">#</string>
+    <string name="ButtonCall">CALL</string>
+    <string name="ButtonSave">SAVE</string>
+    <string name="ButtonClear">CLEAR</string>
+</resources>

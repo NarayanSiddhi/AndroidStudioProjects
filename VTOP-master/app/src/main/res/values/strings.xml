@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">VTOP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+
+    <string name="aboutclg">Welcome to VTOP! This is VIT Bhopal\'s unofficial application.</string>
+    <string name="aboutvtop">This app is made for all the students to tackle their day-to-day hassles in university procedures.If this application could help you by any means, please do share it with your friends &#129310;</string>
+    <string name="clg_address">Address : VIT Bhopal University Bhopal-Indore Highway Kothrikalan, Sehore Madhya Pradesh – 466114</string>
+    <string name="clg_phone">Phone : +91/0 75 6025 4500 / 501 / 502</string>
+    <string name="acre">250 acres of sprawling lush green Campus strategically located on the Indore – Bhopal Highway, the two cleanest cities in the country</string>
+    <string name="caltech">CALTech – Collaborative and Active Learning through Technology</string>
+    <string name="ffcs">Fully Flexible Credit System (FFCS)TM empowers students with freedom to choose courses, faculty and pace of study</string>
+    <string name="lab">Sophisticated laboratories actively engage students in acquiring practical knowledge of industrial standards</string>
+    <string name="vtop_website_link">http://vtop.vitbhopal.ac.in/vtop/initialProcess</string>
+    <string name="vityarthi_link">https://vityarthi.com/courses/</string>
+
+
+    // headings
+    <string name="heading1">Want to experience VTOP on small screens ?</string>
+    <string name="heading2">Finding difficulty in accessing the faculty database?</string>
+    <string name="heading3">Missing out latest events and news of the university?</string>
+    <string name="heading4">Searching study material one night before exams ?</string>
+
+    //buttons
+    <string name="nextBtn">Next</string>
+    <string name="skipBtn">Skip</string>
+    <string name="getStarted">Get Started</string>
+
+    //subheading
+    <string name="subhd1">VTOP 2.0 is an attempt to provide user-friendly university administrative features.</string>
+    <string name="subhd2">Now you can access the entire faculty database with just one click.</string>
+    <string name="subhd3">With VTOP 2.0 you can view the notices and event images. By this, you are well versed with the buzz happening in the university.</string>
+    <string name="subhd4">Don’t hesitate to visit the e-book section to view all the course material and recent notice information about the university.</string>
+
+    //developer section
+    <string name="intro">Hey! I’m an Android Developer and an undergrad student of VIT-B (2021-25). Though I started learning android way back, but the idea of creating VTOP aroused due to the hassle which I faced in accessing the website and the opportunities I missed. Yet, no worries this problem is now being tackled!</string>
+    <string name="skills">I am eager to apply my skills and knowledge to create innovative and user-friendly mobile applications. With a solid foundation in programming and a passion for technology, I am confident in my ability to create high-quality apps that meet the needs of users.</string>
+    <string name="queries">For any queries, contact me through the following links :</string>
+    <string name="dev_name">Shreyansh Jain</string>
+    <string name="gmaillink">mailto:shreyanshatwork@gmail.com</string>
+    <string name="linkedinlink">https://linkedin.com/in/shreyxnsh</string>
+    <string name="githublink">https://github.com/shreyxnsh</string>
+    <string name="sasl"><![CDATA[School of Advanced Sciences & Languages]]></string>
+    <string name="sbio">School of Biosciences, Engineering and Technology</string>
+    <string name="seee"><![CDATA[School of Electrical & Electronics Engineering]]></string>
+    <string name="smee">School of Mechanical Engineering</string>
+    <string name="bund">Pratham Budhwani</string>
+
+
+    <string name="stuCoord">Student Coordinator :</string>
+    <string name="facCoord">Faculty Coordinator :</string>
+    <string name="scse"><![CDATA[School of Computing Science & Engineering]]></string>
+
+    <array name="Batch">
+        <item>Select Batch</item>
+        <item>2022-26</item>
+        <item>2021-25</item>
+        <item>2020-24</item>
+        <item>2019-23</item>
+    </array>
+
+
+
+    //themes
+    <string-array name="theme">
+        <item>Default</item>
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+
+    <style name="CustomAlertDialog" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="android:textViewStyle">@style/CustomAlertDialogTextView</item>
+    </style>
+
+    <style name="CustomAlertDialogTextView" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:fontFamily">@font/poppinsmedium</item>
+    </style>
+
+</resources>

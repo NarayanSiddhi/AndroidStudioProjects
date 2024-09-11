@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">XMLJSON</string>
+    <string name="name">PARSING XML AND JSON DATA</string>
+    <string name="xml">Parse XML Data</string>
+    <string name="json">Parse JSON Data</string>
+    <string name="xmlparsed">Parsed XML Data</string>
+    <string name="jsonparsed">Parsed JSON Data</string>
+</resources>

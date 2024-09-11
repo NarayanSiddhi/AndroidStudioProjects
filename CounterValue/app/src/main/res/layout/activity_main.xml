@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textCounter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="70sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/counter_name"
+        android:layout_below="@+id/textCounter"
+        android:textSize="25sp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="150sp"
+        android:layout_marginLeft="250sp"/>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="130sp"
+        android:layout_height="60sp"
+        android:layout_below="@+id/counter"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50sp"
+        android:text="@string/start"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="130sp"
+        android:layout_height="60sp"
+        android:layout_below="@+id/start"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30sp"
+        android:text="@string/stop"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="130sp"
+        android:layout_height="60sp"
+        android:layout_below="@+id/stop"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30sp"
+        android:text="@string/reset"
+        android:textSize="20sp"/>
+
+</RelativeLayout>
